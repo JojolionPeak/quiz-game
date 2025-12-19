@@ -1,0 +1,20 @@
+{
+  "name": "prompt-sync",
+  "version": "1.0.0",
+  "description": "Find instructions for completing this project at the [Marcy Lab School Docs](https://marcylabschool.gitbook.io/marcy-lab-school-docs/mod-1-javascript-fundamentals).",
+  "homepage": "https://github.com/JojolionPeak/quiz-game#readme",
+  "bugs": {
+    "url": "https://github.com/JojolionPeak/quiz-game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JojolionPeak/quiz-game.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
