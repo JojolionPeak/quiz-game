@@ -1,4 +1,5 @@
 const { Menu } = require('./menu.js');
+
 const timer = setTimeout( function() {
   console.clear();
 },3000);
