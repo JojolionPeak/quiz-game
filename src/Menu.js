@@ -24,6 +24,18 @@ class Menu {
       first.addQuestion('What is 21 / 3?', ['5',' 7',' 9',' 6'], 7);
       console.clear();
       first.runQuiz();
+      console.log('1. Retry quiz');
+      console.log('2. Back to Main Menu');
+
+      let option = Number(prompt('Pick an option (1 or 2): '));
+
+      if (option === 1){
+        console.clear();
+        first.runQuiz();
+      } else if (option === 2){
+        console.clear();
+        this.printOptions();
+      }
     } else if (choice === 2){
       console.log('Showing Leaderboards');
     } else if (choice === 3){

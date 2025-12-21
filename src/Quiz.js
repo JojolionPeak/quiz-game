@@ -41,6 +41,7 @@ class Quiz {
     let ratio = this.numCorrect / this.#questions.length;
     this.score = (ratio.toFixed(2)) * 100;
     console.log(`\nYour final score is ${this.score}%!`)
+    this.score = 0; this.numCorrect = 0;
     return;
   };
 }
