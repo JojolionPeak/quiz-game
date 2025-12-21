@@ -1,14 +1,19 @@
 const { Menu } = require('./menu.js');
-const prompt = require('prompt-sync')();
+const timer = setTimeout( function() {
+  console.clear();
+},3000);
 
- const startApp = () => {
-   console.clear();
-   const menu = new Menu;
-   console.log(`Welcome to "Jojo's First Quiz"!`);
-   while (menu.isRunning){
-    menu.showMenu();
-   };
-   console.log("\nGoodbye!");
- }
+const startApp = () => {
+  console.clear();
+  const menu = new Menu;
+  console.log(`Welcome to "Jojo's First Quiz"!`);
+  while (menu.isRunning){
+    menu.printOptions();
+  };
+  timer;
+  console.log("Goodbye!")
+}
 
- startApp();
+startApp();
+
+module.exports = { timer }
