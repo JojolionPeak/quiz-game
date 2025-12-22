@@ -12,9 +12,7 @@ const startApp = () => {
     menu.printOptions();
   };
   timer;
-  console.log("Goodbye!")
+  console.log(`Goodbye!`);
 }
 
 startApp();
-
-module.exports = { timer }
