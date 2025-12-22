@@ -1,10 +1,6 @@
 const prompt = require('prompt-sync')();
 const { Quiz } = require('./Quiz');
 const { Leaderboard } = require('./Leaderboard');
-const timer = setTimeout( function() {
-  console.clear();
-},3000);
-
 
 class Menu {
 
@@ -36,7 +32,6 @@ class Menu {
       this.board.showBoard();
     } else if (choice === 3){
       console.log('\nQuitting Game');
-      timer;
       this.isRunning = false;
     };
     if (Number.isNaN(choice) || choice > 3){

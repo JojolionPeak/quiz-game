@@ -1,10 +1,6 @@
 const { Question } = require('./Question');
 const prompt = require('prompt-sync')();
 const { Leaderboard } = require('./Leaderboard');
-const timer = setTimeout( function() {
-  console.clear();
-},3000);
-
 
 class Quiz {
 
@@ -35,12 +31,10 @@ class Quiz {
       };
       if (choice !== this.#questions[i].answerNum){
         console.log('Incorrect Answer!');
-        timer;
         continue;
       } else {
         this.numCorrect++;
         console.log(`Correct Answer! You have ${this.numCorrect} questions(s) correct.`);
-        timer;
       };
     };
     console.clear();
