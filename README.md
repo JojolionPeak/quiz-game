@@ -1,5 +1,5 @@
 # CLI App
 
-Find instructions for completing this project at the [Marcy Lab School Docs](https://marcylabschool.gitbook.io/marcy-lab-school-docs/mod-1-javascript-fundamentals).
-
-Once you've completed the project, replace this content with a description of the project, an explanation of the available functionality with usage examples, and clear setup instructions. For an example, look at the README.md file in the [Task Manager Case Study](https://github.com/The-Marcy-Lab-School/swe-casestudy-1-cli-task-manager).
+This is a **Quiz game application** designed to be played in your `Command Line Interface`.
+This is a simple quiz that asks 3 different algebraic questions to the player. It's the player's job to **type in** the correct number that the expression resolves to. Then, upon completing the quiz, the player will enter their name or nickname of choice to be saved to the quiz's **leaderboard**. A player can access the leaderboard from the main menu, as well as the quiz itself by **_typing the number correlated to each option_** on the main menu screen.
+I hope you enjoy "**Jojo's First Quiz**"!
