@@ -1,18 +1,18 @@
-const { Menu } = require('./menu.js');
+const { Menu } = require("./Menu.js");
 
-const timer = setTimeout( function() {
+const timer = setTimeout(function () {
   console.clear();
-},3000);
+}, 3000);
 
 const startApp = () => {
   console.clear();
-  const menu = new Menu;
+  const menu = new Menu();
   console.log(`Welcome to "Jojo's First Quiz"!`);
-  while (menu.isRunning){
+  while (menu.isRunning) {
     menu.printOptions();
-  };
+  }
   timer;
   console.log(`Goodbye!`);
-}
+};
 
 startApp();
