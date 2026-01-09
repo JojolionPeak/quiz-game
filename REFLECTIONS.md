@@ -1,7 +1,7 @@
 1. Share one aspect of building this project you found challenging and how you overcame it.
 
-[Write your reflection here]
+> The thing I found the most challenging about this project was figuring out how to make the leaderboard function the way I wanted. I used **Claude AI** to give me tips on how to push the information that the prompt-sync stored into a different file (JSON) and it recommended me to use **_File System_** notation for **JavaScript**. I decided to spend a few days looking over how the **_fs_** notation works on the **node.js** website and I found a few _pre-made_ methods that did exactly what I was trying to do manually. All I had to do after that was figure out the syntax behind it and after some trial and error, I got my leaderboard to work.
 
 2. Share one technical concept that you gained a deeper understanding of through building this project. Explain that concept in simple terms and explain how it is used in your project.
 
-[Write your reflection here]
+> I have definitely gotten better at using **modules** and **exporting data** throughout different files in my application. When I first started this project I wasn't confident at all in my exports because I didn't have much practice with them, but as I used them more, I became more comfortable using **module exports**. I used modules to _split up my code based on functionality_. For example, all the code pertaining to the quiz itself, is in the `QUiz.js` file, and the code used to make the question objects is all in the `Question.js` file.
